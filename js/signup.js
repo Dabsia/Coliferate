@@ -22,15 +22,9 @@ function getNewUser_details(e) {
     main.style.display = 'none'
     newBox.style.display = 'flex'
     success.style.display = 'block'
-    
+    window.location.href = window.location.href.replace('signup.html','home.html')
 }
 
-    let btn = document.getElementById('home')
-    btn.addEventListener('click', takeHome)
-    function takeHome(e) {
-     e.preventDefault()
-        window.location.href = window.location.href.replace('signup.html','home.html')
-    }
 
 
     
