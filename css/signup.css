@@ -1,9 +1,12 @@
 #number{
-    margin-top: 12px;
+    margin-top: 16px;
 }
 h1{
     color: #fff;
-    margin-bottom: 15px;
-    margin-top: 3rem;
+    margin-bottom: 20px;
     text-align: center;
+    color: var(--primary__color);
+}
+.SignIn__desc{
+    margin-bottom: 1rem;
 }
