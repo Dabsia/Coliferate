@@ -22,11 +22,10 @@ function getNewUser_details(e) {
     main.style.display = 'none'
     newBox.style.display = 'flex'
     success.style.display = 'block'
-
-}
-
-btn.addEventListener('click', TakeHome)
-
-function TakeHome() {
     window.location.href = window.location.href.replace('signup.html','home.html')
 }
+
+
+
+
+    

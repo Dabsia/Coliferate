@@ -14,4 +14,5 @@ function getUser_details(e) {
     email = email.value
     sessionStorage.setItem('name', name)
     sessionStorage.setItem('email', email)
+    window.location.href = window.location.href.replace('signin.html','home.html')
 }
