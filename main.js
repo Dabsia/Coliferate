@@ -10,7 +10,5 @@ function ShowSplash(){
 let CTA = document.getElementById('CTA')
 CTA.addEventListener('click', Redirect)
 function Redirect() {
-    let url = 'http://127.0.0.1:5500/'
-    window.location.href += 'signup.html'
+    window.location.href += 'signin.html'
 }
-console.log(window.location.href)
