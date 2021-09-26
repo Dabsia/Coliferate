@@ -18,6 +18,9 @@ body{
     overflow: hidden;
     
 }
+html{
+    overflow: hidden;
+}
 .SignIn__desc{
     margin-top: 5rem;
     margin-bottom: 3rem;
