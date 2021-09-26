@@ -1,5 +1,7 @@
 body{
     padding: 13px;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 nav{
     margin-top: 2.5rem
@@ -62,7 +64,7 @@ li:first-child{
     margin-top: 1.5rem;
 }
 h3{
-    
+    text-align: left;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -99,16 +101,36 @@ h3{
 .newsBox4{
     background: url(../images/img4.png);    
 }
+.newsBox5{
+    background: url(../images/img5.png);    
+}
+.newsBox6{
+    background: url(../images/img6.png);    
+}
+.newsBox7{
+    background: url(../images/img7.png);    
+}
+.newsBox8{
+    background: url(../images/img8.png);    
+}
+.newsBox9{
+    background: url(../images/img9.png);    
+}
+.newsBox10{
+    background: url(../images/img10.png);    
+}
+.newsBox11{
+    background: url(../images/img11.png);    
+}
+.newsBox12{
+    background: url(../images/img12.png);    
+}
 .news-Images{
     background-repeat: no-repeat;
     width: 47%;
     height: 150px;
     border-radius: 20px;
-    background-size: cover;
-    
-
-
-    
+    background-size: cover;    
 }
 .problems{
     padding: 0;
@@ -149,4 +171,8 @@ h3{
     font-size: 10px;
     line-height: 16px;
     color: #FFFFFF;
+}
+.tech{
+    width: fit-content;
+    margin-top: 1.5rem;
 }
