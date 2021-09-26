@@ -21,7 +21,7 @@ li:first-child{
 }
 .notification-icon{
     font-size: 25px;
-    color: var(--primary__color);
+    
 }
 .search{
     display: flex;
@@ -75,8 +75,6 @@ h3{
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
-
     text-align: center;
     letter-spacing: -0.3312px;
     padding: 0;
@@ -88,27 +86,18 @@ h3{
     margin-top: 1.5rem;
     justify-content: space-between;
 }
-.boxes{
-    background: url(../images/img1.png);
-    display: block;
-    width: 100% !important;
-    
+.newsBox{
+    background: url(../images/img1.png);    
 }
 
-.boxes2{
-    background: url(../images/img2.png);
-    display: block;
-    width: 100% !important;
+.newsBox2{
+    background: url(../images/img2.png);    
 }
-.boxes3{
-    background: url(../images/img3.png);
-    display: block;
-    width: 100% !important;
+.newsBox3{
+    background: url(../images/img3.png);    
 }
-.boxes4{
-    background: url(../images/img4.png);
-    display: block;
-    width: 100% !important;
+.newsBox4{
+    background: url(../images/img4.png);    
 }
 .news-Images{
     background-repeat: no-repeat;
@@ -117,4 +106,47 @@ h3{
     border-radius: 20px;
     background-size: cover;
     
+
+
+    
+}
+.problems{
+    padding: 0;
+    padding-left: 11px;
+    padding-top: 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+    text-align: left;
+}
+.status{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.8rem;
+    padding: 2px;
+}
+
+.time, .viewers{
+    display: flex;
+    width: 35%;
+}
+.time{
+    width: 60%;
+    padding-left: 5px;
+}
+.icons{
+    font-size: 10px;
+    margin-right: 5px;
+    padding-top: 3px;
+}
+.hours, .views{
+    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    color: #FFFFFF;
 }
