@@ -21,6 +21,7 @@ li:first-child{
 }
 .notification-icon{
     font-size: 25px;
+    color: var(--primary__color);
 }
 .search{
     display: flex;
@@ -54,4 +55,56 @@ li:first-child{
     width: 15%;
     padding-top: 15px;
     color: black;
+}
+.matters{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+h3{
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.3312px;
+}
+.continue{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.3312px;
+    padding: 0;
+    color: #858585;
+}
+.news{
+    display: flex;
+    width: 100vw;
+    margin-top: 1.5rem;
+    justify-content: space-between;
+}
+.newsBox{
+    background: url(../images/img1.png);
+}
+.newsBox2{
+    background: url(../images/img2.png);
+}
+.newsBox3{
+    background: url(../images/img3.png);
+}
+.newsBox4{
+    background: url(../images/img4.png);
+}
+.news-Images{
+    background-repeat: no-repeat;
+    width: 47%;
+    height: 130px;
+    border-radius: 20px;
+    background-size: cover;
+    
 }
