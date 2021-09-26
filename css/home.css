@@ -1,7 +1,11 @@
 body{
-    padding: 13px;
+    position: relative;
     overflow-x: hidden;
     overflow-y: scroll;
+    
+}
+main{
+    padding: 13px;
 }
 nav{
     margin-top: 2.5rem
@@ -175,4 +179,22 @@ h3{
 .tech{
     width: fit-content;
     margin-top: 1.5rem;
+}
+.navigation{
+    height: 70px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    position: fixed;
+    top: 500px;
+}
+.nav-icons{
+    color: #cdcdcd;
+    font-size: 25px;
+}
+.active-icon{
+    color: black
 }
