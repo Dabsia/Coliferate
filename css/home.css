@@ -88,17 +88,27 @@ h3{
     margin-top: 1.5rem;
     justify-content: space-between;
 }
-.newsBox{
+.boxes{
     background: url(../images/img1.png);
+    display: block;
+    width: 100% !important;
+    
 }
-.newsBox2{
+
+.boxes2{
     background: url(../images/img2.png);
+    display: block;
+    width: 100% !important;
 }
-.newsBox3{
+.boxes3{
     background: url(../images/img3.png);
+    display: block;
+    width: 100% !important;
 }
-.newsBox4{
+.boxes4{
     background: url(../images/img4.png);
+    display: block;
+    width: 100% !important;
 }
 .news-Images{
     background-repeat: no-repeat;
