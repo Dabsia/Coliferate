@@ -14,7 +14,7 @@
     
 </head>
 <body>
-    
+    <main>
     <section class="SignIn__desc">
         <div class="icon"><i class="ri-settings-fill settings__icon"></i></div>
         <h3>Coliferate</h3>
@@ -25,11 +25,18 @@
             <input type="text" id = 'name'  autocomplete="off" placeholder="Name" required>
             <input type="email" name="email" autocomplete="off"  placeholder="Email" id="email">
             <input type="number" id = 'number'  autocomplete="off" placeholder="Number" required>
-            <button>Create account</button>
+            <button id = 'create__account'>Create account</button>
         </form>
     </section>
     <div class="account">
         <p class =  'create__account'>Already have an account? <a href="./signin.html">Sign In</a></p>
+    </div>
+    </main>
+    <div class="newBox">
+        <div class="success">
+            <h1>Your Acoount has been created</h1>
+            <button id = 'home'>Go to Home</button>
+        </div>
     </div>
     <script src='./js/signup.js'></script>
 </body>

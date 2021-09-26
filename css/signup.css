@@ -10,3 +10,15 @@ h1{
 .SignIn__desc{
     margin-bottom: 1rem;
 }
+.success{
+    width: 90%;
+    height: 300px;
+    display: none;
+}
+.newBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
