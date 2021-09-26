@@ -16,6 +16,7 @@ body{
     font-family: Montserrat, Inter, sans-serif;
     background-color: #121212;
     display: flex;
+    overflow: hidden;
     justify-content: center;
     align-items: center;
 }
