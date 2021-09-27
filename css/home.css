@@ -190,7 +190,7 @@ h3{
     align-items: center;
     padding: 0 10px;
     position: fixed;
-    top: 500px;
+    bottom: 0px;
 }
 .nav-icons{
     color: #cdcdcd;

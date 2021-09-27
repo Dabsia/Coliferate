@@ -1,0 +1,93 @@
+body{
+    padding: 12px;
+    overflow-x: hidden;
+}
+a{
+    
+    margin-right: 10px;
+}
+.back{
+    color: #fff;
+    font-weight: 400;
+}
+.news__holder{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    height: 150px;
+    width: 100%;
+    margin-top: 24px;
+    background-color: #f1f1f1;
+    border-radius: 14px;
+}
+.news__image{
+    background: url(../images/issues1.png);
+}
+.news__image2{
+    background: url(../images/issues2.png);
+}
+.news__image3{
+    background: url(../images/issues3.png);
+}
+.news__image4{
+    background: url(../images/issues4.png);
+}
+.news__image5{
+    background: url(../images/issues5.png);
+}
+.image__styles{
+    height: 125px;
+    width: 45%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+.news__details{
+    width: 50%;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+h5{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: -0.3312px;
+    color: #0064FE;
+}
+h4{
+    margin-top: 12px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #0A0A0A;
+}
+.status{
+    margin-top: 1rem;
+}
+.hours, .views {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #858585;
+}
+
+.time{
+    padding-left: 0;
+    margin: 0;
+    width: 70%;
+}
+.icons{
+    color: #858585;
+    margin-right: 3px;
+}
+.eye{
+    font-weight: 600;
+}
