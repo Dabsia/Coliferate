@@ -50,6 +50,7 @@ li:first-child{
 #TextSearch{
     border: none;
     outline: none;
+    width: 85%;
     background-color: #e5e5e5;
 }
 .filter{
